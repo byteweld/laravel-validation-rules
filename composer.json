@@ -1,0 +1,29 @@
+{
+    "name": "byteweld/laravel-validation-rules",
+    "description": "Custom validation rules for Laravel.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gowtham M",
+            "email": "byteweld2025@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "illuminate/support": "^9.0|^10.0|^11.0|^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Byteweld\\ValidationRules\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Byteweld\\ValidationRules\\Providers\\ValidationServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
