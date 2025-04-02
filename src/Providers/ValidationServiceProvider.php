@@ -4,8 +4,8 @@ namespace Byteweld\ValidationRules\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Validator;
-use Byteweld\ValidationRules\Rules\PhoneNumber;
-use Byteweld\ValidationRules\Rules\InternationalPhoneNumber;
+use Byteweld\ValidationRules\Rules\PhoneValidation\PhoneNumber;
+use Byteweld\ValidationRules\Rules\PhoneValidation\InternationalPhoneNumber;
 
 class ValidationServiceProvider extends ServiceProvider
 {

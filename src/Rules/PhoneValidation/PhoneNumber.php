@@ -1,6 +1,6 @@
 <?php
 
-namespace Byteweld\ValidationRules\Rules;
+namespace Byteweld\ValidationRules\Rules\PhoneValidation;
 
 use Illuminate\Contracts\Validation\Rule;
 
